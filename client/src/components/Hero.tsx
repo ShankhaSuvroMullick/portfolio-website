@@ -58,7 +58,7 @@ export function Hero() {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground font-medium max-w-lg mx-auto md:mx-0 leading-relaxed">
-            Full Stack Developer & CSE Student crafting high-performance, accessible web experiences.
+            AI/ML & Software Engineer crafting high-performance, accessible web experiences.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4 justify-center md:justify-start">

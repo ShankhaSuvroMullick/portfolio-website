@@ -26,9 +26,9 @@ export function About() {
             </h2>
             <div className="w-20 h-1.5 bg-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-              I am a Computer Science student dedicated to mastering 
-              <strong> software engineering and AI</strong>. I focus on creating 
-              clean, efficient architectures that solve real-world problems with elegant code.
+              I am an <strong>AI/ML & Software Engineer</strong> dedicated to mastering 
+              intelligent systems and robust architectures. I focus on creating 
+              clean, efficient solutions that solve real-world problems with elegant code.
             </p>
           </motion.div>
 
