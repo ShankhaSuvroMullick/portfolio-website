@@ -97,41 +97,6 @@ export function Hero() {
           </div>
         </motion.div>
       </div>
-            <ScrollLink
-              to="projects"
-              smooth={true}
-              offset={-100}
-              className="cursor-pointer px-8 py-3.5 rounded-full bg-foreground text-background font-semibold hover:bg-foreground/90 transition-all flex items-center gap-2 group"
-            >
-              View Projects
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </ScrollLink>
-            
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noreferrer"
-              className="p-3.5 rounded-full border border-border hover:border-foreground/20 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
-            >
-              <Github className="w-5 h-5" />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noreferrer"
-              className="p-3.5 rounded-full border border-border hover:border-foreground/20 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
-            >
-              <Linkedin className="w-5 h-5" />
-            </a>
-            <a
-              href="mailto:contact@example.com"
-              className="p-3.5 rounded-full border border-border hover:border-foreground/20 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
-            >
-              <Mail className="w-5 h-5" />
-            </a>
-          </div>
-        </motion.div>
-      </div>
     </section>
   );
 }
