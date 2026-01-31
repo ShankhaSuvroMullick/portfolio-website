@@ -1,0 +1,62 @@
+Build a high-quality, clean, modern personal portfolio website for a Computer Science student and Software Engineer named SHANKHA SUVRO MULLICK.
+
+DESIGN & STYLE:
+- White background with a premium, minimal, professional look
+- Clean typography, strong spacing, and subtle blue/black/gray accent colors
+- Modern UI similar to top software engineer portfolios
+- Smooth scrolling and elegant hover animations
+- Fully responsive for mobile, tablet, and desktop
+
+HERO / HOME SECTION:
+- Large bold display of the name:
+  "SHANKHA SUVRO MULLICK"
+- Subtitle:
+  "Software Engineer | Computer Science (CSE)"
+- Short professional tagline:
+  "Building clean, efficient, and scalable software solutions"
+- Profile photo placeholder (centered or left-aligned)
+- Call-to-action buttons:
+  "View Projects" and "Download Resume"
+
+ABOUT SECTION:
+- Professional biography describing a CSE student passionate about software engineering, AI, and problem solving
+- Skills displayed as clean tags or icons:
+  • C
+  • C++
+  • Python
+  • Data Structures & Algorithms
+  • AI / Machine Learning
+  • Web Development (HTML, CSS, JavaScript)
+
+PROJECTS SECTION:
+- Grid-based project showcase
+- Each project card should include:
+  • Project thumbnail (placeholder)
+  • Project title
+  • Short description
+  • GitHub repository link
+- Add subtle hover effects to project cards
+
+EXPERIENCE & ACHIEVEMENTS:
+- Section for internships, open-source contributions, hackathons, certifications, or achievements
+- Resume download button (PDF placeholder)
+
+CONTACT SECTION:
+- Clean contact form with name, email, and message fields
+- Form validation using JavaScript
+- Display email address and social links (GitHub and LinkedIn)
+- Professional footer with copyright text
+
+TECHNICAL REQUIREMENTS:
+- Semantic HTML5 structure
+- Clean, well-organized CSS
+- Simple JavaScript for interactivity (smooth scroll, form handling)
+- Basic SEO meta tags (title, description, viewport)
+- Fast-loading and accessible design
+
+DEPLOYMENT:
+- Generate a fully working website
+- Deploy it as a live site and provide a public URL
+- Ensure the code is easy to customize and extend later
+
+The final result should look professional, recruiter-ready, and suitable for internships, freelancing, and software engineering roles.
