@@ -14,27 +14,29 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="relative order-2 md:order-1"
+          className="relative order-2 md:order-1 flex justify-center md:justify-start"
         >
-          <div className="relative w-full aspect-square max-w-md mx-auto">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-[2rem] transform rotate-3" />
-            <img 
-              src="/images/profile.jpg" 
-              alt="Shankha Suvro Mullick" 
-              className="absolute inset-0 w-full h-full object-cover rounded-[2rem] shadow-2xl border border-white/50 object-top"
-            />
-            {/* Floating Card */}
+          <div className="relative w-64 h-64 md:w-80 md:h-80">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-full transform rotate-6 scale-105 blur-sm" />
+            <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-white/10 shadow-2xl bg-muted">
+              <img 
+                src="/images/profile.jpg" 
+                alt="Shankha Suvro Mullick" 
+                className="w-full h-full object-cover object-[center_20%]"
+              />
+            </div>
+            {/* Floating Achievement */}
             <motion.div 
               animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-              className="absolute -bottom-6 -right-6 bg-white dark:bg-card p-4 rounded-xl shadow-xl border border-border/50 flex items-center gap-3"
+              className="absolute -bottom-2 -right-2 bg-white dark:bg-card p-3 rounded-2xl shadow-xl border border-border/50 flex items-center gap-3 z-10"
             >
-              <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600">
-                <Github className="w-5 h-5" />
+              <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-blue-600">
+                <Github className="w-4 h-4" />
               </div>
               <div>
-                <p className="text-xs text-muted-foreground font-medium">Commits</p>
-                <p className="text-sm font-bold">1,200+ This Year</p>
+                <p className="text-[10px] text-muted-foreground font-medium uppercase tracking-wider">Experience</p>
+                <p className="text-xs font-bold whitespace-nowrap">Building Scalable Web Apps</p>
               </div>
             </motion.div>
           </div>
@@ -44,22 +46,22 @@ export function Hero() {
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="space-y-6 order-1 md:order-2"
+          className="space-y-6 order-1 md:order-2 text-center md:text-left"
         >
-          <div className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-medium text-sm">
-            Available for opportunities
+          <div className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-semibold text-xs tracking-wide uppercase">
+            Available for new projects
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground leading-[1.1]">
-            Hi, I'm <br />
+          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-foreground leading-tight">
+            I'm <br />
             <span className="text-gradient">Shankha Suvro</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-lg">
-            Software Engineer & CS Student building clean, scalable solutions for the modern web.
+          <p className="text-lg md:text-xl text-muted-foreground font-medium max-w-lg mx-auto md:mx-0 leading-relaxed">
+            Full Stack Developer & CSE Student crafting high-performance, accessible web experiences.
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-4">
+          <div className="flex flex-wrap gap-4 pt-4 justify-center md:justify-start">
             <ScrollLink
               to="projects"
               smooth={true}
